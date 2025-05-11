@@ -334,7 +334,7 @@ function validateForm(form){
     }
     if(!isValid.nameInput){
         errorMessage.classList.remove('d-none');
-        errorMessage.innerHTML = 'Special characters and numbers not allowed';
+        errorMessage.innerHTML = 'Special characters not allowed and minimum 3 characters';
         return false;
     }else if(!isValid.emailInput){
         errorMessage.classList.remove('d-none');
