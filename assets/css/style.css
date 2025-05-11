@@ -1,0 +1,55 @@
+html{
+    scroll-padding-top: 100px;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    max-width: 1100px;
+}
+
+.nav-list{
+    width: 0px;
+    transition: width 0.5s;
+}
+.active-nav-list{
+    width: 300px;
+}
+
+.nav-list li{
+    display: none;
+    cursor: pointer;
+}
+
+.card p{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.5s;
+}
+.card:hover p{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+/* loading */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid lightblue;
+  border-right-color: orange;
+  translate: -50% -50%;
+  z-index: 100;
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}

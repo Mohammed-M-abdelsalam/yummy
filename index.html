@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Magdy</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Yummy</title>
+</head>
+<body>
+    <div>
+        <div class="loader d-none position-absolute top-50 start-50"></div>
+        <aside class="position-fixed bottom-0 top-0 d-flex bg-white z-3">
+            <nav class="bg-black">
+                <ul class="nav-list list-unstyled d-flex flex-column overflow-hidden h-100 z-3">
+                    <li id="home" class="nav-link p-2 text-white">home</li>
+                    <li id="search" class="nav-link p-2 text-white">Search</li>
+                    <li id="categories" class="nav-link p-2 text-white">Categories</li>
+                    <li id="area" class="nav-link p-2 text-white">Area</li>
+                    <li id="ingredients" class="nav-link p-2 text-white">Ingredients</li>
+                    <li id="contact" class="nav-link p-2 text-white">Contact Us</li>
+                    <li class="mt-auto p-3">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <p>Copyright Â© 2019 All Rights Reserved.</p>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-btn d-flex flex-column justify-content-between align-items-center py-4 text-dark" style="width: 66px;">
+                <div class="d-flex justify-content-center">
+                    <img width="75%" src="assets/images/logo.png" alt="">
+                </div>
+                <div>
+                    <i id="menu-icon" class="fa-solid fa-bars fs-2"></i>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-1">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <main class="container-fluid position-relative me-0" style="width: calc(100% - 50px);">
+            <div id="root" class="row row-cols-md-3 row-cols-lg-4 g-4 py-3 overflow-hidden w-75 mx-auto"></div>
+            <div id="details-popup" class="position-absolute d-none" style="background: #fff; inset: 0;"></div>
+            <div id="contact-section" class="d-none row py-3 overflow-hidden w-75 mx-auto"></div>
+        </main>
+    </div>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
