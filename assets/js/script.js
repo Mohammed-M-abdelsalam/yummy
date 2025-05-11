@@ -373,9 +373,7 @@ function handleFormSubmit(){
     });
 }
 
-// getHomeData();
-getContactPage();
-handleFormSubmit();
+getHomeData();
 toggleNav();
 
 $('.nav-list li').click(function() {
